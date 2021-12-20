@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script defer src="./header/header.js"></script>
+    <link rel="stylesheet" href="./header/header.css" />
+
+    <script defer src="./contacto/contacto.js"></script>
+    <link rel="stylesheet" href="./contacto/contacto.css" />
+
+    <script defer src="./footer/footer.js"></script>
+    <link rel="stylesheet" href="./footer/footer.css" />
+
+    <link rel="stylesheet" href="./index.css" />
+    <script defer src="./index.js"></script>
+  </head>
+  <body>
+    <section class="welcome">
+      <div class="header-cont"></div>
+      <div class="welcome__texto">
+        <h1 class="welcome__titulo">Hola</h1>
+        <h2 class="welcome__subtitulo">Soy Francisco</h2>
+      </div>
+    </section>
+
+    <div class="presentacion">
+      <div class="presentacion__imagen-cont">
+        <img src="./img/foto.jpeg" class="presentacion__imagen" />
+      </div>
+      <div class="presentacion-cont">
+        <h3 class="presentacion__nombre">Soy Francisco</h3>
+        <p class="presentacion__texto">
+          Soy un Desarrollador Web Fullstack apasionado por la programación.<br />
+          <br />Comencé aprendiendo sobre esto con el Programa Nacional de
+          capacitación promovido por la #CESSI (Cámara de la Industria Argentina
+          de Software). Durante esa capacitación, aprendí muchísimo sobre hacer
+          código y desarrollo web. Luego de eso, me inscribí en un bootcamp
+          donde aprendí un montón más. Fue en APX school donde estudié a fondo
+          todo JavaScript.<br /><br />
+          Mis habilidades: <br /><br /><b> Lenguajes de programación:</b> CSS,
+          HTML, JavaScript, SQL, NodeJS, TypeScript, Java.<br />
+          <br /><b>Habilidades blandas: </b>Trabajo en equipo, soy amable,
+          emprendedor, organizado.
+        </p>
+      </div>
+    </div>
+    <h2 class="servicios__title">Mis servicios</h2>
+    <section class="servicios">
+      <template id="servicios-template">
+        <div class="servicios-card">
+          <img src="./img/Compu.svg" alt="" class="servicios-card__imagen" />
+          <h3 class="servicios-card__title"></h3>
+          <p class="servicios-card__descripcion"></p>
+        </div>
+      </template>
+    </section>
+    <div class="contacto-cont"></div>
+
+    <div class="footer-cont"></div>
+  </body>
+</html>
