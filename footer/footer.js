@@ -3,7 +3,9 @@ function footer(el) {
 
   componentEl.innerHTML = `    
   <footer class="footer">
+  <a href="./index.html">
         <img src="./img/logo-letras-blancas.png" class="footer__imagen" />
+        </a>     
         <div class="footer__redes-cont">
           <div class="footer__redes">
           <a class="footer__redes-link" href="https://www.instagram.com/pancho_jburgoa/?hl=es-la">
