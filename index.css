@@ -48,13 +48,13 @@ body {
 
 .presentacion__imagen-cont {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .presentacion__imagen {
-  width: 370px;
-  height: 430px;
-  margin-left: 183px;
+  width: 250px;
+  height: 300px;
+  margin-left: 100px;
   margin-right: 50px;
 }
 
